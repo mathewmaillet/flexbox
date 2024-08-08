@@ -1,5 +1,6 @@
 /* style.css */
 
+/* main box for the header*/
 .container{
     display: flex;
     background-color: peachpuff;
@@ -10,7 +11,7 @@
     justify-content: space-between;
     
 }
-/* changes for changes sake */
+/* Middle Logo box */
 .middle{
     display: flex;
     flex: 0;
@@ -24,7 +25,7 @@
 }
 
 
-
+/* smaller side buttons */
 .sides{
     flex: 0;
     font-size: small;
