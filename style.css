@@ -1,0 +1,35 @@
+/* style.css */
+
+.container{
+    display: flex;
+    background-color: peachpuff;
+    border: 5px solid green;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+/* changes for changes sake */
+.middle{
+    display: flex;
+    flex: 0;
+    font-size: large;
+    background-color: white;
+    color: orange;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.sides{
+    flex: 0;
+    font-size: small;
+    background-color: white;
+    margin: 5px;
+}
+
+
