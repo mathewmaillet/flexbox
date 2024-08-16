@@ -1,0 +1,24 @@
+/* header2.css*/
+
+.header{
+    display: flex;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.mainlogo{
+    height: 75px;
+    width: 150px;
+    border: 1px solid black;
+}
+
+.secondary-links{
+    height: 50px;
+    width: 100px;
+}
+
+.notification-button{
+    background-color: purple;
+    height: 50px;
+    width: 75px;
+}
