@@ -1,12 +1,21 @@
 /* style.css */
 
+/*containers for small side buttons*/
+.side-container{
+    display: flex;
+    background-color: transparent;
+    width: 200px;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+
 /* main box for the header*/
 .container{
     display: flex;
     background-color: peachpuff;
     border: 5px solid green;
     height: 150px;
-    justify-content: center;
     align-items: center;
     justify-content: space-between;
     
@@ -14,23 +23,27 @@
 /* Middle Logo box */
 .middle{
     display: flex;
-    flex: 0;
     font-size: large;
     background-color: white;
     color: orange;
-    height: 75px;
+    height: 100px;
+    width: 450px;
     justify-content: center;
     align-items: center;
     
 }
 
-
 /* smaller side buttons */
 .sides{
-    flex: 0;
+    display: flex;
     font-size: small;
     background-color: white;
+    border: 1px solid black;
+    height: 25px;
+    width: 75px;
     margin: 5px;
+    align-content: center;
+    justify-content: center;
 }
 
 
