@@ -4,6 +4,9 @@
     display: flex;
     height: 100px;
     border: 1px solid black;
+    gap: 8px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .mainlogo{
@@ -12,7 +15,7 @@
     border: 1px solid black;
 }
 
-.secondary-links{
+.links{
     height: 50px;
     width: 100px;
 }
@@ -21,4 +24,18 @@
     background-color: purple;
     height: 50px;
     width: 75px;
+}
+
+.leftside-container{
+    display: flex;
+    gap: 8px;
+    height: 75px;
+    width: 450px;
+}
+
+.rightside-container{
+    display: flex;
+    height: 75px;
+    width: 150px;
+    justify-content: right;
 }
