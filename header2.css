@@ -1,36 +1,38 @@
 /* header2.css*/
 
-.header{
+
+*.header, .mainlogo, .links{
     display: flex;
-    height: 100px;
+    color: black;
     border: 1px solid black;
     padding: 8px;
+    justify-content: center;
     align-items: center;
+
+}
+.header{
+    
+    height: 100px;
     justify-content: space-between;
 }
 
 .mainlogo{
-    display: flex;
+    
     height: 50px;
-    width: 150px;
     color: purple;
     font-family: Times;
     font-weight: bolder;
-    border: 1px solid black;
-    align-items: center;
-    justify-content: center;
 }
 
 .links{
-    display: flex;
+    
     height: 50px;
     width: 100px;
-    align-items: center;
-    justify-content: center;
+    color: purple;
 }
 
 .notification-button{
-    display: flex;
+    
     background-color: purple;
     color: white;
     height: 50px;
@@ -47,20 +49,11 @@
   display: inline-block;
 }
 
-.leftside-container{
+.leftside-container, .rightside-container{
     display: flex;
     gap: 16px;
     height: 75px;
-    width: 450px;
+    align-items: center;
     justify-content: center;
-    align-items: center;
-}
-
-.rightside-container{
-    display: flex;
-    height: 75px;
-    width: 150px;
-    justify-content: right;
-    align-items: center;
-    gap: 16px;
+    
 }
