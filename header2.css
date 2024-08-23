@@ -17,7 +17,7 @@
 }
 
 .mainlogo{
-    
+    flex-basis: 200px;
     height: 50px;
     color: purple;
     font-family: Times;
@@ -25,9 +25,8 @@
 }
 
 .links{
-    
+    flex-basis: 100px;
     height: 50px;
-    width: 100px;
     color: purple;
 }
 
