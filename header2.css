@@ -11,7 +11,6 @@
 
 }
 .header{
-    
     height: 100px;
     justify-content: space-between;
 }
@@ -45,7 +44,7 @@
     height: 50px;
     width: 50px;
     border-radius: 50%;
-  display: inline-block;
+    display: inline-block;
 }
 
 .leftside-container, .rightside-container{
